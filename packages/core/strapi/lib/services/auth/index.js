@@ -47,20 +47,21 @@ const createAuthentication = () => {
       for (const strategy of strategiesToUse) {
         const result = await strategy.authenticate(ctx);
 
-        const { authenticated = false, error = null, credentials } = result || {};
+        const { authenticated = false, error = null } = result || {};
 
         if (error !== null) {
           return ctx.unauthorized(error);
         }
 
         if (authenticated) {
-          ctx.state.isAuthenticated = true;
-          ctx.state.auth = {
-            strategy,
-            credentials,
-          };
+          return ctx.unauthorized(error);
+          // ctx.state.isAuthenticated = true;
+          // ctx.state.auth = {
+          //   strategy,
+          //   credentials,
+          // };
 
-          return next();
+          // return next();
         }
       }
 
