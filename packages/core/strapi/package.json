@@ -82,7 +82,7 @@
     "@koa/router": "10.1.1",
     "@strapi/admin": "4.0.6",
     "@strapi/database": "4.0.6",
-    "@strapi/generate-new": "4.0.6",
+    "@mv0409/generate-new-s": "4.0.6",
     "@strapi/generators": "4.0.6",
     "@strapi/logger": "4.0.6",
     "@strapi/plugin-content-manager": "4.0.6",
