@@ -1,5 +1,5 @@
 {
-  "name": "@mv0409/create-app-s",
+  "name": "@mv0409/create-apps",
   "version": "4.0.6",
   "description": "Generate a new application.",
   "keywords": [
@@ -15,7 +15,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/mv0409/create-app-s.git"
+    "url": "git://github.com/mv0409/create-apps.git"
   },
   "license": "SEE LICENSE IN LICENSE",
   "author": {
