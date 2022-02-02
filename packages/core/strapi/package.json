@@ -1,5 +1,5 @@
 {
-  "name": "@strapi/strapi",
+  "name": "@mv0409/strapi",
   "version": "4.0.6",
   "description": "An open source headless CMS solution to create and manage your own API. It provides a powerful dashboard and features to make your life easier. Databases supported: MySQL, MariaDB, PostgreSQL, SQLite",
   "keywords": [
@@ -49,7 +49,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/strapi/strapi.git"
+    "url": "git://github.com/mv0409/lets-run-together-strapi.git"
   },
   "license": "SEE LICENSE IN LICENSE",
   "author": {
