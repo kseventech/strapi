@@ -50,7 +50,7 @@ const generateNewApp = (projectDirectory, cliArguments) => {
     useYarn: !useNpm && hasYarn(),
     installDependencies: true,
     strapiDependencies: [
-      '@mv0409/strapi-s',
+      '@mv0409/strapis',
       '@strapi/plugin-users-permissions',
       '@strapi/plugin-i18n',
     ],
