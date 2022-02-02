@@ -15,7 +15,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "@mv0409/lets-run-together-strapi"
+    "url": "git://github.com/mv0409/lets-run-together-strapi.git"
   },
   "license": "SEE LICENSE IN LICENSE",
   "author": {
