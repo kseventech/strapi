@@ -32,7 +32,7 @@ const RBAC_ACTIONS = [
 
 /**
  *
- * @param {{strapi: import("@mv0409/strapi").Strapi}} args
+ * @param {{strapi: import("@mv0409/strapi-s").Strapi}} args
  */
 module.exports = async ({ strapi }) => {
   await strapi.admin.services.permission.actionProvider.registerMany(RBAC_ACTIONS);
