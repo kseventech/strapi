@@ -2,7 +2,7 @@
 
 const { resolve } = require('path');
 const commander = require('commander');
-const { checkInstallPath, generateNewApp } = require('@strapi/generate-new');
+const { checkInstallPath, generateNewApp } = require('@mv0409/generate-new');
 const promptUser = require('./utils/prompt-user');
 const packageJson = require('./package.json');
 
