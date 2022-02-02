@@ -38,7 +38,7 @@
     "test": "echo \"no tests yet\""
   },
   "dependencies": {
-    "@strapi/generate-new": "4.0.6",
+    "@mv0409/generate-new": "4.0.6",
     "chalk": "4.1.1",
     "ci-info": "3.1.1",
     "commander": "7.1.0",
