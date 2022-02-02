@@ -1,6 +1,6 @@
 {
   "name": "@mv0409/lets-run-together-strapi",
-  "private": false,
+  "private": true,
   "version": "0.1.0",
   "bugs": {
     "url": "https://github.com/strapi/strapi/issues"
